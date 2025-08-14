@@ -1,93 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Navbar</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Tailwind css </title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
 
-<body>
-    <nav class="navbar">
-        <a href="#" class="logo">MyBrand</a>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-     <div class="product-list">
-        <div class="product-card">
-            <img src="https://cdn.pixabay.com/photo/2016/10/28/09/41/jordan-shoes-1777572_1280.jpg" alt="Product 1">
-     
-            <p class="price">199.99</p>
-            <button>Add to Cart</button>
-        </div>
+  <div class="w-full max-w-md p-4">
+    <h2 class="text-2xl font-semibold text-center mb-4">Simple Table</h2>
+    <table class="min-w-full bg-white border border-gray-300 rounded-lg shadow">
+      <thead>
+        <tr class="bg-blue-500 text-white">
+          <th class="py-2 px-4 border-b">Roll</th>
+          <th class="py-2 px-4 border-b">Name</th>
+          <th class="py-2 px-4 border-b">Mark</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="hover:bg-gray-100">
+          <td class="py-2 px-4 border-b text-center">01</td>
+          <td class="py-2 px-4 border-b text-center">Rahul</td>
+          <td class="py-2 px-4 border-b text-center">65</td>
+        </tr>
+        <tr class="bg-gray-50 hover:bg-gray-100">
+          <td class="py-2 px-4 border-b text-center">02</td>
+          <td class="py-2 px-4 border-b text-center">Rina</td>
+          <td class="py-2 px-4 border-b text-center">85</td>
+        </tr>
+        <tr class="hover:bg-gray-100">
+          <td class="py-2 px-4 text-center">03</td>
+          <td class="py-2 px-4 text-center">Sam</td>
+          <td class="py-2 px-4 text-center">60</td>
+        </tr>
+          <tr class="hover:bg-gray-100">
+          <td class="py-2 px-4 text-center">04</td>
+          <td class="py-2 px-4 text-center">Ram</td>
+          <td class="py-2 px-4 text-center">79</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-        <div class="product-card">
-            <img src="https://cdn.pixabay.com/photo/2015/03/24/18/11/childrens-shoes-687959_1280.jpg" alt="Product 2">
-       
-            <p class="price">79.50</p>
-            <button>Add to Cart</button>
-        </div>
-
-        <div class="product-card">
-            <img src="https://cdn.pixabay.com/photo/2015/02/09/13/41/shoe-629645_1280.jpg" alt="Product 3">
-            
-            <p class="price">120.00</p>
-            <button>Add to Cart</button>
-        </div>
-
-        <div class="product-card">
-            <img src="https://cdn.pixabay.com/photo/2018/12/12/17/18/shoe-3871244_1280.jpg" alt="Product 5">
-      
-            <p class="price">89.99</p>
-            <button>Add to Cart</button>
-        </div>
-          <div class="product-card">
-            <img src="https://cdn.pixabay.com/photo/2017/09/29/16/24/shoe-2799608_1280.jpg" alt="Product 6">
-           
-            <p class="price">399</p>
-            <button>Add to Cart</button>
-        </div>
-         <div class="product-card">
-            <img src="https://cdn.pixabay.com/photo/2018/01/03/03/32/childrens-shoes-3057510_1280.jpg" alt="Product 7">
-           
-            <p class="price">499</p>
-            <button>Add to Cart</button>
-        </div>
-         <div class="product-card">
-            <img src="https://cdn.pixabay.com/photo/2018/01/23/00/06/childrens-shoes-3100350_1280.jpg" alt="Product 8">
-           
-            <p class="price">89</p>
-            <button>Add to Cart</button>
-        </div>
-         <div class="product-card">
-            <img src="https://cdn.pixabay.com/photo/2014/04/10/18/39/running-shoe-321199_1280.jpg" alt="Product 9">
-           
-            <p class="price">199</p>
-            <button>Add to Cart</button>
-        </div>
-         <div class="product-card">
-            <img src="https://cdn.pixabay.com/photo/2017/05/13/18/48/shoe-2310400_1280.jpg" alt="Product 10">
-           
-            <p class="price">89.99</p>
-            <button>Add to Cart</button>
-        </div>
-         <div class="product-card">
-            <img src="https://cdn.pixabay.com/photo/2020/07/15/15/36/sneaker-5408068_1280.jpg" alt="Product 11">
-           
-            <p class="price">89.99</p>
-            <button>Add to Cart</button>
-        </div>
-         <div class="product-card">
-            <img src="https://cdn.pixabay.com/photo/2014/04/10/18/39/running-shoe-321199_1280.jpg" alt="Product 4">
-           
-            <p class="price">89.99</p>
-            <button>Add to Cart</button>
-        </div>
-    </div>
-    
 </body>
-</html>.
+</html>
+
