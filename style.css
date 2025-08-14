@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+  
+   display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar .logo {
+    color: rgba(20, 20, 20, 0);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+.navbar {
+    background-color: #9eee08;
+    overflow: hidden;
+    display: flex; 
+    justify-content: space-between; /* Puts space between logo and links */
+    align-items: center; /* Vertically centers items */
+    padding: 10px 20px;
+    position: fixed; /* Makes the navbar stay at the top */
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box; 
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arranges list items horizontally */
+}
+
+.navbar .nav-links li {
+    margin-left: 20px; /* Adds space between navigation items */
+}
+
+.navbar .nav-links li a {
+    color: white;
+    text-decoration: none; /* Removes underline from links */
+    padding: 8px 15px;
+    display: block; /* Makes the entire area clickable */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar .nav-links li a:hover {
+    background-color: #575757; /* Changes background on hover */
+    border-radius: 4px;
+}
+.navbar .nav-links li {
+    margin-left: 20px; /* Adds space between navigation items */
+}
+
+.navbar .nav-links li a {
+    color: white;
+    text-decoration: none; /* Removes underline from links */
+    padding: 8px 15px;
+    display: block; /* Makes the entire area clickable */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+
+.product-list {
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between grid items */
+margin: 25px;
+top:20px;
+ border-radius: 8px;
+   
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px;
+   
+}
+
+.product-card .price {
+    font-size: 1.1em;
+    color: #e44d26; /* A common accent color */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-card button {
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    
+}
+
+.product-card button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
